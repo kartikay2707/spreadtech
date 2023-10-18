@@ -30,6 +30,7 @@ body{
   .lofi{
     font-size: 2em;
     color: aliceblue;
+    cursor: none;
   }
    
   .navigation a{
@@ -126,7 +127,7 @@ body{
     border: none;
     outline: none;
     padding: 0px 35px 0px 5px;
-    color: rgb(161, 91, 0);
+    color: rgb(33 28 134);
   }
 
   .Rember{
