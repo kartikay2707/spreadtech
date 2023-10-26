@@ -35,18 +35,34 @@ body{
  }
 
  .btn{
-    margin: 40px;
+   /* margin: 40px;
     width: 100px;
     height: 26px;
-    background-color: ;
+    background-color: ;*/
+    width: 200px;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #191970;
+    color: #00BFFF;
  }
 
  label{
     font-size: 18px;
     font-weight: 700;
     font-style: italic;
+    color: 	#E6E6FA;
  }
 
  #name{
     width: 300px;
+    
+    border-radius: 3px;
+    outline: none;
+    padding: 7px;
+    background-color: #fff;
+    background: transparent;
+    color: orange;
  }
