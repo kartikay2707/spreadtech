@@ -13,39 +13,29 @@
         <form id="Register">
             <label>First Name: </label>
             <br>
-            <input type="text" id="name" placeholder="Enter your First Name ">
+            <input type="text" id="fname" placeholder="Enter your First Name ">
             <br>
             <label>Last Name: </label>
             <br>
-            <input type="text" id="name" placeholder="Enter your Last Name ">
+            <input type="text" id="lname" placeholder="Enter your Last Name ">
             <br>
             <label>Email: </label>
             <br>
-            <input type="email" id="name" placeholder="Enter your valid email ">
-            <br>
-            <label>Your Age: </label>
-            <br>
-            <input type="number" id="name" placeholder="How old are you ">
-            <br>
-            <label>Gender: </label>
-            <br>
-            <input type="radio"  name="R1">
-            <label> Male </label>
-            <input type="radio"  name="R1">
-            <label>Female</label>
+            <input type="email" id="email" placeholder="Enter your valid email ">
             <br>
             <label>Password: </label>
             <br>
-            <input type="password" id="name" placeholder="password">
+            <input type="password" id="pass" placeholder="password">
             <br>
             <label>Confirm password: </label>
             <br>
-            <input type="password" id="name" placeholder="Confirm password">
-            <br>
-            <button type="submit" class="btn">Register</button>    
+            <input type="password" id="cpass" placeholder="Confirm password">
+            <br>    
         </form>
+        <button id=btn_submit type="submit" class="btn">Register</button>
     </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js" integrity="sha512-DNI/FJdkfyeuPUal7lDkRVg0mFY2n4IZJJYqPbQWLL0COxLi6G6nmf5gr1vW1Bd4wYC09hOvZVsSclfXxUTU/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script.js"></script>
 </body>
 </html>

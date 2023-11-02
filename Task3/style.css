@@ -14,17 +14,20 @@ body{
  .Main{
     width: 100%;
     margin: 40px;
+    justify-content: center;
+    align-items: center;
 
  }
 
  .Register h1{
      text-align: center;
      padding: 20px;
-     color: black;
+     color: rgb(255, 254, 254);
  }
 
  .Register{
     text-align: center;
+    justify-content: center;
     background-color: rgba(0, 0,0,0.5);
     width: 100%;
     font-size: 18px;
@@ -35,10 +38,6 @@ body{
  }
 
  .btn{
-   /* margin: 40px;
-    width: 100px;
-    height: 26px;
-    background-color: ;*/
     width: 200px;
     padding: 6px;
     font-size: 16px;
@@ -49,17 +48,30 @@ body{
     color: #00BFFF;
  }
 
- label{
+ #register label{
     font-size: 18px;
+    text-align: center;
+    align-items: center;
     font-weight: 700;
     font-style: italic;
     color: 	#E6E6FA;
  }
+ #register input{
+   font-size: 18px;
+   text-align: center;
+   align-items: center;
+   font-weight: 700;
+   font-style: italic;
+   color: 	#E6E6FA;
+}
 
- #name{
-    width: 300px;
-    
+ #Register{
+    width: auto;
+    height: 60vh;
     border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     outline: none;
     padding: 7px;
     background-color: #fff;
